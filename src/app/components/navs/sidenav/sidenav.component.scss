@@ -1,0 +1,23 @@
+.sidebar {
+    width: 180px;
+    min-height: 100vh;
+    border-right: 1px solid rgb(228, 228, 228);
+}
+
+.items {
+    justify-content: space-around;
+
+    i {
+        padding: .4rem;
+        border-radius: .3rem;
+        cursor: pointer;
+    }
+}
+
+.setting {
+    background-color: white;
+
+    &:hover {
+        background-color: rgb(237, 237, 237);
+    }
+}

@@ -1,0 +1,10 @@
+<div class="home d-flex">
+    <div class="sidebar fixed-left" id="sidebar-scroll"><app-sidenav></app-sidenav></div>
+    <div class="content">
+        <div class="nav"><app-navbar style="width: 100%;"></app-navbar></div>
+        <div class="article d-flex">
+            <div class="sidebar-desc"[ngClass]="{'d-block': showSidebarDesc, 'd-none': !showSidebarDesc}"><app-sidenav-desc></app-sidenav-desc></div>
+           <div class="mail-detail" style="width: calc(100% - 270px);"> <app-mail-detail></app-mail-detail></div>
+        </div>
+    </div>
+</div>

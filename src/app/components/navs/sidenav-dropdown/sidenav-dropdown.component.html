@@ -1,0 +1,13 @@
+<li class="mb-1">
+    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed ps-1"data-bs-toggle="collapse" [attr.data-bs-target]="'#home-collapse'+ id"aria-expanded="true">
+        <i class='bx {{icon}} pe-2 pt-1'></i> {{name}}
+    </button>
+    <div class="collapse collapse-detail" id="home-collapse{{id}}">
+        <ul class="btn-toggle-nav list-unstyled small pt-2">
+            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{item1}}</a></li>
+            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{item2}}</a>
+            </li>
+            <li><a href="#"class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{item3}}</a></li>
+        </ul>
+    </div>
+</li>

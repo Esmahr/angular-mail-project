@@ -1,0 +1,37 @@
+.sidebar {
+	width: 180px;
+	height: 100vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+}
+
+.sidebar-desc {
+	width: 300px;
+	overflow-x: hidden;
+	border-right: 1px solid rgb(214, 214, 214);
+}
+
+.home {
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+}
+
+.content {
+	width: calc(100% - 180px);
+}
+
+#sidebar-scroll::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #F5F5F5;
+}
+
+#sidebar-scroll::-webkit-scrollbar {
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+#sidebar-scroll::-webkit-scrollbar-thumb {
+	background-color: #5b5b5b;
+}
