@@ -4,27 +4,33 @@
 
 .mail-content-desc {
     font-size: 10px;
-    white-space: nowrap; /* Tek satır halinde tutar */
-    overflow: hidden; /* Taşan metni gizler */
-    text-overflow: ellipsis; /* Taşan metin için üç nokta ekler */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     position: relative;
-    max-width: 100%; /* Elemanın genişliğini sınırlamak için */
+    max-width: 100%;
+    user-select: none;
 }
 
 .mail-content-desc::after {
-    content: ''; /* Boş içerik */
+    content: '';
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
-    width: 50px; /* Bulanık kısmın genişliği */
-    background: linear-gradient(to left, white, rgba(255, 255, 255, 0)); /* Sağdan sola doğru bulanık geçiş */
+    width: 50px;
+    background: linear-gradient(to left, white, rgba(255, 255, 255, 0));
 }
 
-li, .operations {
+li,
+.operations {
     border-bottom: 1px solid rgb(225, 225, 225);
     padding: .5rem;
     padding-right: 0rem;
+}
+
+.operations {
+    height: 2.5rem;
 }
 
 .name-surname {
@@ -39,6 +45,7 @@ li, .operations {
     height: 2.5rem;
     width: 2.5rem;
     font-size: 14px;
+    user-select: none;
 }
 
 .name {
@@ -82,7 +89,17 @@ ul {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(-360deg);
     }
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: #9f00d4;
+    border-color: #8b00ba;
 }

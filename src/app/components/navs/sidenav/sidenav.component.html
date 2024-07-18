@@ -11,7 +11,7 @@
         <app-sidenav-item name="Gönderilenler" icon="bx-send"></app-sidenav-item>  
         <app-sidenav-item name="Taslak" icon="bx-note"></app-sidenav-item>
         <app-sidenav-item name="Spam" icon="bx-error"></app-sidenav-item>
-        <app-sidenav-item name="Çöp Kutusu" icon="bx-trash"></app-sidenav-item>
+        <app-sidenav-item name="Çöp Kutusu" icon=""></app-sidenav-item>
         <app-sidenav-item name="Önemli" icon="bxs-bookmarks"></app-sidenav-item>
         <app-sidenav-item name="Sohbetler" icon="bx-conversation"></app-sidenav-item>
         <app-sidenav-item name="Zamanlanmış" icon="bxs-timer"></app-sidenav-item>
@@ -27,7 +27,7 @@
 
         <li class="pb-2 fixed-bottom border-end setting" style="width: 180px;">
             <div class="border-bottom mb-1"></div>
-            <button class="btn align-items-center rounded border-0"><i class='bx bx-cog me-1'></i>Ayarlar</button>
+            <button class="btn align-items-center rounded border-0" style="width: 180px;" [routerLink]="['/setting']"><i class='bx bx-cog me-1'></i>Ayarlar</button>
         </li>
     </ul>
 </div>

@@ -1,0 +1,124 @@
+.form-group {
+	margin-bottom: 1rem;
+}
+
+body {
+	background: linear-gradient(135deg, #C3FF93, #FFDB5C, #FFAF61, #FF70AB);
+	height: 100vh;
+}
+
+.card {
+	border: none;
+	border-radius: 0rem;
+	color: #57557A;
+	height: 90vh;
+}
+
+p {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.division {
+	float: none;
+	position: relative;
+	margin: 30px auto 20px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.division .line {
+	border-top: 1.5px solid #57557A;
+	position: absolute;
+	top: 13px;
+	width: 85%;
+}
+
+.line.l {
+	left: 52px;
+}
+
+.line.r {
+	right: 45px;
+
+}
+
+.division span {
+	font-weight: 600;
+	font-size: 18px;
+	position: relative;
+	background-color: #fff;
+	text-transform: uppercase;
+	z-index: 5;
+}
+
+.myform {
+	padding: 0 25px 0 33px;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 1px solid #57557A;
+	border-radius: 0px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+	background-color: transparent;
+
+}
+
+.form-control:focus {
+	box-shadow: none;
+	letter-spacing: 1px;
+}
+
+.form-check-input {
+	margin-top: 8px !important;
+}
+
+.btn-primary {
+	background-color: #ff8839;
+	width: 100%;
+	border: none;
+	border-radius: 50px;
+}
+
+.btn-primary:focus {
+	background-color: #ff7010;
+	box-shadow: none;
+	border: none;
+}
+
+@media (max-width: 991px) {
+	.bg-white {
+		display: none;
+	}
+}
+
+@media (max-width: 576px) {
+	.col-12 {
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
+	}
+}
+
+
+.more {
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+
+	@media (max-width: 576px) {
+		display: inline;
+		margin-bottom: 1rem;
+
+		.login {
+			text-align: center;
+		}
+	}
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+}

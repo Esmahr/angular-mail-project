@@ -14,6 +14,11 @@ import { SidenavItemComponent } from './components/navs/sidenav-item/sidenav-ite
 import { SidenavDropdownComponent } from './components/navs/sidenav-dropdown/sidenav-dropdown.component';
 import { SidenavMailItemComponent } from './components/navs/sidenav-mail-item/sidenav-mail-item.component';
 import { MailDetailComponent } from './components/mail-detail/mail-detail.component';
+import { FormsModule } from '@angular/forms';
+import { MailSettingsComponent } from './components/settings/mail-settings/mail-settings.component';
+import { ProfileSettingsComponent } from './components/settings/profile-settings/profile-settings.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { DenemeComponent } from './components/deneme/deneme.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +33,16 @@ import { MailDetailComponent } from './components/mail-detail/mail-detail.compon
     SidenavItemComponent,
     SidenavDropdownComponent,
     SidenavMailItemComponent,
-    MailDetailComponent
+    MailDetailComponent,
+    MailSettingsComponent,
+    ProfileSettingsComponent,
+    LandingPageComponent,
+    DenemeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration()

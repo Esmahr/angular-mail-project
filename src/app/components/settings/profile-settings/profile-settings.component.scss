@@ -1,0 +1,43 @@
+.form-label {
+    padding-left: 2px;
+    padding-bottom: 3px;
+}
+
+.form-group {
+    width: 50%;
+}
+
+input {
+    border: none;
+    border-radius: 0rem;
+    background-color:rgb(232, 231, 255);
+
+    &:focus {
+        box-shadow: none;
+        background-color:rgb(232, 231, 255);
+    }
+}
+
+.form-check-label,
+form-check-input {
+    font-size: 12px;
+}
+
+.form-check-input {
+    margin-top: 7px;
+}
+
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5rem;
+    border-width: 5px;
+    border: 2px solid rgb(149, 79, 255);
+    animation: borderRadiusAnimation 5s infinite;
+  }
+
+
+  .col-10{
+    position: relative;
+    right: -2.5rem;
+  }

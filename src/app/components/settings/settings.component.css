@@ -1,0 +1,31 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color:indigo;
+}
+
+li {
+    padding: .3rem .5rem;
+    border-radius: 0rem;
+    margin-bottom: 3px;
+
+    &:hover {
+        background-color: indigo;
+        a{
+            color: white;
+        }
+    }
+}
+
+body {
+    height: 100vh;
+}
+
+.sidebar {
+    border-right: 1px solid indigo;
+    height: 100vh;
+    width: 200px;
+}

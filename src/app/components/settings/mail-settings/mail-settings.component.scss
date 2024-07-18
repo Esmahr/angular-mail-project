@@ -1,0 +1,35 @@
+.container {
+    max-width: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.responsive-table {
+    li {
+        border-radius: 3px;
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .table-header {
+        background-color: rgb(232, 231, 255);
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.03em;
+    }
+
+    .table-row {
+        box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .col-8 {
+        flex-basis: 85%;
+    }
+
+    .col-2 {
+        flex-basis: 15%;
+    }
+}

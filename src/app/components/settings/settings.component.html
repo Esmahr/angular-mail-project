@@ -1,1 +1,16 @@
-<p>settings works!</p>
+<body>
+    <div class="navbar fixed-top ps-3 text-white">Mail.Co</div>
+    <div class="d-flex">
+        <div class="col-2 pt-5 sidebar">
+            <ul class="list-unstyled pt-2">
+                <li><a routerLink="/setting/profile-setting" routerLinkActive="active"><i
+                            class='bx bx-user me-2'></i>Profile</a></li>
+                <li><a routerLink="/setting/mail-setting" routerLinkActive="active"><i
+                            class='bx bx-envelope me-2'></i>Mail Settings</a></li>
+            </ul>
+        </div>
+        <div class="col-10 p-5">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</body>
